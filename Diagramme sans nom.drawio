@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T15:36:04.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.7" etag="lfTDuKQeCwvvkA1dzZbd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T15:39:56.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="AWXLfjnX8d9HC_yaMNBg" version="22.1.7" type="github">
   <diagram name="Page-1" id="IREjszTsm0Cs9NzbakG7">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-2" value="package BLL" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="24" y="16" width="763" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-3" value="StagiaireManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="76" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-4" value="-stagiaireDAO: StagiaireDAO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-3">
+          <mxGeometry y="26" width="241" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-3">
+          <mxGeometry y="52" width="241" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-7" value="EvaluationManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="76" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-8" value="-evaluationDAO: evaluationDAO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-7">
+          <mxGeometry y="26" width="241" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-7">
+          <mxGeometry y="52" width="241" height="8" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

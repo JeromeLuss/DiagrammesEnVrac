@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T17:19:49.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="0CaiKn4fiUQ1nQ4eIOLq" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T17:20:43.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="IAoyJqbampFiGLjcmYrU" version="22.1.7" type="github">
   <diagram name="Page-1" id="IREjszTsm0Cs9NzbakG7">
-    <mxGraphModel dx="698" dy="385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,6 +83,18 @@
         </mxCell>
         <mxCell id="jltZM2PD5XOY3X1_tcFe-41" value="&lt;div&gt;+insert(Evaluation e)&lt;/div&gt;&lt;div&gt;+selectByID(int id): Evaluation&lt;/div&gt;&lt;div&gt;+selectAll():List&amp;lt;Evaluation&amp;gt;&lt;/div&gt;&lt;div&gt;+update(Evaluation e)&lt;/div&gt;&lt;div&gt;+delete(Evaluation e)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-39">
           <mxGeometry y="34" width="209" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jltZM2PD5XOY3X1_tcFe-35" target="jltZM2PD5XOY3X1_tcFe-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="262" y="439" as="sourcePoint" />
+            <mxPoint x="422" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jltZM2PD5XOY3X1_tcFe-39" target="jltZM2PD5XOY3X1_tcFe-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="255" y="460" as="sourcePoint" />
+            <mxPoint x="515" y="353" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T17:13:35.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="m90jcg3EAqHguGa2Ax2Q" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T17:18:38.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="oXVUI-h_K4d6Vt15N8_h" version="22.1.7" type="github">
   <diagram name="Page-1" id="IREjszTsm0Cs9NzbakG7">
-    <mxGraphModel dx="1221" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="698" dy="385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jltZM2PD5XOY3X1_tcFe-2" value="package BLL" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-2" value="package BLL" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
           <mxGeometry x="24" y="16" width="763" height="133" as="geometry" />
         </mxCell>
         <mxCell id="jltZM2PD5XOY3X1_tcFe-3" value="StagiaireManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -25,7 +25,7 @@
         <mxCell id="jltZM2PD5XOY3X1_tcFe-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-7">
           <mxGeometry y="52" width="241" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="jltZM2PD5XOY3X1_tcFe-10" value="package DAL" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-10" value="package DAL" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
           <mxGeometry x="24" y="168" width="763" height="460" as="geometry" />
         </mxCell>
         <mxCell id="jltZM2PD5XOY3X1_tcFe-11" value="DAOFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -51,7 +51,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jltZM2PD5XOY3X1_tcFe-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DAO&amp;lt;T&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+insert(T data)&lt;/div&gt;&lt;div&gt;+selectByID(T data): T&lt;/div&gt;&lt;div&gt;+selectAll(): List&amp;lt;T&amp;gt;&lt;/div&gt;&lt;div&gt;+update(T data)&lt;/div&gt;&lt;div&gt;+delete(T data)&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="416" y="258" width="190" height="140" as="geometry" />
+          <mxGeometry x="411" y="218" width="188" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-27" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.506;exitY=1.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jltZM2PD5XOY3X1_tcFe-5" target="jltZM2PD5XOY3X1_tcFe-26">
+          <mxGeometry x="0.6596" width="160" relative="1" as="geometry">
+            <mxPoint x="261" y="322" as="sourcePoint" />
+            <mxPoint x="421" y="322" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jltZM2PD5XOY3X1_tcFe-7" target="jltZM2PD5XOY3X1_tcFe-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="197" y="148" as="sourcePoint" />
+            <mxPoint x="512" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-35" value="StagiaireDAOJdbcImpl&amp;lt;Stagiaire&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="209" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-35">
+          <mxGeometry y="26" width="209" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-38" value="&lt;div&gt;+insert(Stagiaire s)&lt;/div&gt;&lt;div&gt;+selectByID(int id): Stagiaire&lt;/div&gt;&lt;div&gt;+selectAll():List&amp;lt;Stagiaire&amp;gt;&lt;/div&gt;&lt;div&gt;+update(Stagiaire s)&lt;/div&gt;&lt;div&gt;+delete(Stagiaire s)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-35">
+          <mxGeometry y="34" width="209" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

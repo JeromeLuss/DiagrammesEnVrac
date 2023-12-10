@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T17:18:38.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="oXVUI-h_K4d6Vt15N8_h" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T17:19:49.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="0CaiKn4fiUQ1nQ4eIOLq" version="22.1.7" type="github">
   <diagram name="Page-1" id="IREjszTsm0Cs9NzbakG7">
     <mxGraphModel dx="698" dy="385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,6 +73,15 @@
           <mxGeometry y="26" width="209" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jltZM2PD5XOY3X1_tcFe-38" value="&lt;div&gt;+insert(Stagiaire s)&lt;/div&gt;&lt;div&gt;+selectByID(int id): Stagiaire&lt;/div&gt;&lt;div&gt;+selectAll():List&amp;lt;Stagiaire&amp;gt;&lt;/div&gt;&lt;div&gt;+update(Stagiaire s)&lt;/div&gt;&lt;div&gt;+delete(Stagiaire s)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-35">
+          <mxGeometry y="34" width="209" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-39" value="EvaluationDAOJdbcImpl&amp;lt;Stagiaire&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="450" width="209" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-39">
+          <mxGeometry y="26" width="209" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jltZM2PD5XOY3X1_tcFe-41" value="&lt;div&gt;+insert(Evaluation e)&lt;/div&gt;&lt;div&gt;+selectByID(int id): Evaluation&lt;/div&gt;&lt;div&gt;+selectAll():List&amp;lt;Evaluation&amp;gt;&lt;/div&gt;&lt;div&gt;+update(Evaluation e)&lt;/div&gt;&lt;div&gt;+delete(Evaluation e)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jltZM2PD5XOY3X1_tcFe-39">
           <mxGeometry y="34" width="209" height="91" as="geometry" />
         </mxCell>
       </root>
